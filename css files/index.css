@@ -114,19 +114,24 @@ section img {
 
 /* Add button styles */
 .product-info button {
-    margin-top: 10px;  /* Space above button */
-    padding: 10px 15px;  /* Padding inside button */
-    font-size: 1rem;  /* Font size */
+    background-color: green;  /* Green background */
     color: #fff;  /* White text */
-    background-color: #4CAF50;  /* Green background */
-    border: none;  /* No border */
-    border-radius: 5px;  /* Rounded corners */
+    border: none;  /* Remove border */
+    padding: 10px 20px;  /* Padding */
+    margin-bottom: 20px;  /* Space below button */
     cursor: pointer;  /* Pointer cursor */
-    transition: background-color 0.3s;  /* Smooth background transition */
+    border-radius: 4px;  /* Rounded corners */
+    font-size: 1rem;  /* Font size */
+    transition: background-color 0.3s;  /* Smooth transition */
 }
 
 .product-info button:hover {
-    background-color: #45a049;
+    background-color: darkgreen;  /* Dark green on hover */
+}
+
+.product-info button a {
+    color: #fff;  /* White text */
+    text-decoration: none;  /* Remove underline */
 }
 
 /* Today's Deals image  */
